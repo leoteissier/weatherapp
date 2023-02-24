@@ -74,6 +74,7 @@ body{
 }
 
 .weather-box{
+    height: 270px;
     text-align: center;
 }
 

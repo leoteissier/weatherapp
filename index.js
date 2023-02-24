@@ -53,13 +53,13 @@ search.addEventListener('click', async () => {
                 image.src = 'images/fog.svg';
                 break;
             case 'hail':
-                image.src = 'images/hail.png';
+                image.src = 'images/hail.svg';
                 break;
             case 'partly-cloudy-day':
                 image.src = 'images/partly-cloudy-day.svg';
                 break;
             case 'partly-cloudy-night':
-                image.src = 'images/partly-cloudy-night.png';
+                image.src = 'images/partly-cloudy-night.svg';
                 break;
             case 'rain':
                 image.src = 'images/rain.svg';
@@ -68,16 +68,16 @@ search.addEventListener('click', async () => {
                 image.src = 'images/rain-snow.svg';
                 break;
             case 'rain-snow-showers-day':
-                image.src = 'images/rain-snow-showers-day.png';
+                image.src = 'images/rain-snow-showers-day.svg';
                 break;
             case 'rain-snow-showers-night':
-                image.src = 'images/rain-snow-showers-night.png';
+                image.src = 'images/rain-snow-showers-night.svg';
                 break;
             case 'showers-day':
-                image.src = 'images/showers-day.png';
+                image.src = 'images/showers-day.svg';
                 break;
             case 'showers-night':
-                image.src = 'images/showers-night.png';
+                image.src = 'images/showers-night.svg';
                 break;
             case 'sleet':
                 image.src = 'images/sleet.svg';
@@ -86,22 +86,22 @@ search.addEventListener('click', async () => {
                 image.src = 'images/snow.svg';
                 break;
             case 'snow-showers-day':
-                image.src = 'images/snow-showers-day.png';
+                image.src = 'images/snow-showers-day.svg';
                 break;
             case 'snow-showers-night':
-                image.src = 'images/snow-showers-night.png';
+                image.src = 'images/snow-showers-night.svg';
                 break;
             case 'thunder':
-                image.src = 'images/thunder.png';
+                image.src = 'images/thunder.svg';
                 break;
             case 'thunder-rain':
-                image.src = 'images/thunder-rain.png';
+                image.src = 'images/thunder-rain.svg';
                 break;
             case 'thunder-showers-day':
-                image.src = 'images/thunder-showers-day.png';
+                image.src = 'images/thunder-showers-day.svg';
                 break;
             case 'thunder-showers-night':
-                image.src = 'images/thunder-showers-night.png';
+                image.src = 'images/thunder-showers-night.svg';
                 break;
             case 'wind':
                 image.src = 'images/wind.svg';

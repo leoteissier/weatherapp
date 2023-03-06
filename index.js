@@ -115,7 +115,7 @@ search.addEventListener('click', async () => {
         description.innerHTML = `${json.currentConditions.conditions}`;
         humidity.innerHTML = `${json.currentConditions.humidity}%`;
         windspeed.innerHTML = `${parseInt(json.currentConditions.windspeed)}Km/h`;
-        datetime.innerHTML = `${json.currentConditions.datetime}`;
+        datetime.innerHTML = new Date().getHours() + ':' + new Date().getMinutes();
 
         weatherBox.style.display = '';
         weatherDetails.style.display = '';
